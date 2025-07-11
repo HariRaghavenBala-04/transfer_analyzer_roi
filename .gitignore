@@ -1,0 +1,8 @@
+# VS Code + Python + Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.DS_Store
+.env
+*.log
+*.sqlite
