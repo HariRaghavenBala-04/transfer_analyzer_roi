@@ -1,20 +1,42 @@
-## Day 1 – Problem Framing: Transfer ROI Analyzer
+# ⚽ Transfer ROI Analyzer
 
-**Why this project?**  
-I'm passionate about football strategy and data science. This project helps bridge both by modeling what makes a signing "worth it."
+![Repo size](https://img.shields.io/github/repo-size/HariRaghavenBala-04/transfer_analyzer_roi)
+![Last commit](https://img.shields.io/github/last-commit/HariRaghavenBala-04/transfer_analyzer_roi)
 
-**Who is this for?**  
-A football club’s data/scouting/recruitment team — to evaluate past transfers and improve future decisions.
+---
 
-**What do I hope to learn?**  
-- Data merging and cleanup  
-- Feature engineering (creating "value" from raw stats)  
-- Framing decisions from a technical director's point of view  
-- Building visuals that speak to football executives
+## 📌 Project Overview
 
-**Initial Ideas for ROI Formula:**  
-ROI = (Performance Score + Resale Value if sold) / Transfer Fee  
-Performance Score = Goals + (0.5 × Assists) + (0.1 × Starts) → *to be refined*
+A data-driven tool designed to help football clubs evaluate whether a player transfer was "worth it" based on performance, cost, and resale value.
 
-**Next Step (Day 2):**  
-Build an initial dataset of 10–15 players and start collecting fees + appearances, goals, etc.
+---
+
+## 🎯 Why This Project?
+
+I'm passionate about football strategy and data science. This project bridges both by modeling what makes a player signing valuable — from the perspective of a technical director.
+
+---
+
+## 👥 Who Is This For?
+
+- Club recruitment teams  
+- Analysts working in scouting or transfer strategy  
+- Data scientists interested in sports economics
+
+---
+
+## 🧠 What I Hope to Learn
+
+- Data merging and cleaning (across sources like FBref, Transfermarkt)
+- Feature engineering (creating "value" metrics from raw stats)
+- Building insights from a technical director's point of view
+- Visual storytelling with Matplotlib/Seaborn/Plotly for decision-makers
+
+---
+
+## 📐 Initial ROI Formula
+
+```text
+ROI = (Performance Score + Resale Value if sold) / Transfer Fee
+
+Performance Score = Goals + (0.5 × Assists) + (0.1 × Starts)
