@@ -1,8 +1,23 @@
-# VS Code + Python + Jupyter
+# Python
 __pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.DS_Store
-.env
-*.log
-*.sqlite
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (optional - if you don't want to track large data files)
+# data/raw/*.csv
+# data/processed/*.csv
